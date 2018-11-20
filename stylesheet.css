@@ -5,76 +5,87 @@ body {
 
 h1 {
 	font-size: 72px;
-	text-indent: 20px;
+	text-indent: 2%;
+}
+
+p {
+	line-height: 200%;
 }
 
 /* Dropdown Button */
 .dropbtn-cyan {
-    background-color: #00EEEE;
-    color: white;
+    background-color: #00FFFF;
+    color: #333333;
     padding: 12px;
     font-size: 20px;
     border: none;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropbtn-magenta {
-    background-color: #EE00EE;
+    background-color: #FF00FF;
     color: white;
     padding: 12px;
     font-size: 20px;
     border: none;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropbtn-yellow {
-    background-color: #EEEE00;
+    background-color: #FFFF00;
     color: #222222;
     padding: 12px;
     font-size: 20px;
     border: none;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropbtn-key {
     background-color: #111111;
     color: white;
     padding: 12px;
     font-size: 20px;
     border: none;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 /* The container <div> - needed to position the dropdown .dropdown-content */
 .dropdown-cyan {
     position: relative;
     display: inline-block;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-magenta {
     position: relative;
     display: inline-block;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-yellow {
     position: relative;
     display: inline-block;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-key {
     position: relative;
     display: inline-block;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -83,52 +94,56 @@ h1 {
 .dropdown-content-cyan {
     display: none;
     position: absolute;
-    background-color: #00EEEE;
+    background-color: #00FFFF;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-content-magenta {
     display: none;
     position: absolute;
-    background-color: #EE00EE;
+    background-color: #FF00FF;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-content-yellow {
     display: none;
     position: absolute;
-    background-color: #EEEE00;
+    background-color: #FFFF00;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-content-key {
     display: none;
     position: absolute;
     background-color: #111111;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-	width: 62%;
+	width: 80%;
 	text-align: left;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Links inside the dropdown */
 .dropdown-content-cyan a {
-    color: white;
+    color: #333333;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-content-magenta a {
     color: white;
     padding: 12px 16px;
@@ -136,6 +151,7 @@ h1 {
     display: block;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-content-yellow a {
     color: #222222;
     padding: 12px 16px;
@@ -143,6 +159,7 @@ h1 {
     display: block;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .dropdown-content-key a {
     color: white;
     padding: 12px 16px;
