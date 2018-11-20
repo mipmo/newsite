@@ -1,0 +1,170 @@
+body {
+	background-color: #FAFAFA;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 72px;
+	text-indent: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn-cyan {
+    background-color: #00EEEE;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropbtn-magenta {
+    background-color: #EE00EE;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropbtn-yellow {
+    background-color: #EEEE00;
+    color: #222222;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropbtn-key {
+    background-color: #111111;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* The container <div> - needed to position the dropdown .dropdown-content */
+.dropdown-cyan {
+    position: relative;
+    display: inline-block;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-magenta {
+    position: relative;
+    display: inline-block;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-yellow {
+    position: relative;
+    display: inline-block;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-key {
+    position: relative;
+    display: inline-block;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Dropdown .dropdown-content (Hidden by Default) */
+.dropdown-content-cyan {
+    display: none;
+    position: absolute;
+    background-color: #00EEEE;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-content-magenta {
+    display: none;
+    position: absolute;
+    background-color: #EE00EE;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-content-yellow {
+    display: none;
+    position: absolute;
+    background-color: #EEEE00;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-content-key {
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	width: 66%;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-cyan a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-content-magenta a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-content-yellow a {
+    color: #222222;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.dropdown-content-key a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-cyan a:hover {background-color: #00DDDD;}
+.dropdown-content-magenta a:hover {background-color: #DD00DD;}
+.dropdown-content-yellow a:hover {background-color: #DDDD00;}
+.dropdown-content-key a:hover {background-color: #000000;}
+
+/* Show the dropdown menu on hover */
+.dropdown-cyan:hover .dropdown-content-cyan {display: block;}
+.dropdown-magenta:hover .dropdown-content-magenta {display: block;}
+.dropdown-yellow:hover .dropdown-content-yellow {display: block;}
+.dropdown-key:hover .dropdown-content-key {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown .dropdown-content is shown */
+.dropdown-cyan:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-magenta:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-yellow:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-key:hover .dropbtn {background-color: #3e8e41;}
